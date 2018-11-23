@@ -14,3 +14,27 @@ body {
   color: #99460E;
   font-weight: 300;
   line-height: 1.6; }
+
+.sidebar {
+  background-color: #E8A93F; }
+
+.team {
+  background-color: #0A1237; }
+
+.features {
+  background-color: #172B69; }
+
+.story__pictures {
+  background-color: #E8A93F; }
+
+.story__content {
+  background-color: #F1EBE0; }
+
+.projects {
+  background-color: #172B69; }
+
+.gallery {
+  background-color: #172B69; }
+
+.footer {
+  background-color: #0A1237; }
