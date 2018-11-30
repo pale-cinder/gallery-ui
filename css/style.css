@@ -52,13 +52,14 @@ body {
   grid-template-rows: auto auto;
   grid-gap: 6rem; }
 
-.feature__icon {
-  fill: #99460E;
-  width: 4.5rem;
-  height: 4.5rem; }
-
-.feature__text {
-  font-size: 1.8rem; }
+.feature {
+  font-size: 2rem; }
+  .feature__icon {
+    fill: #99460E;
+    width: 4.5rem;
+    height: 4.5rem; }
+  .feature__text {
+    font-size: 1.8rem; }
 
 .story__pictures {
   background-color: #E8A93F;
