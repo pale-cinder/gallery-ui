@@ -9,3 +9,16 @@
     grid-template-rows: auto auto;
     grid-gap: 6rem;
 }
+
+.feature {
+
+    &__icon {
+        fill: $color--brown-primary;
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    &__text {
+        font-size: 1.8rem;
+    }
+}
