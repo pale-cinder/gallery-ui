@@ -1,11 +1,13 @@
 .story {
     &__pictures {
-        background-color: $color-yellow-primary;
+        background-color: $color--brown-primary;
         grid-column: full-start / col-end 4;
     }
 
     &__content {
         background-color: $color-yellow-light;
         grid-column: col-start 5 / full-end;
+
+        padding: 6rem 
     }
 }

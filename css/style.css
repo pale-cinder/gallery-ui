@@ -24,12 +24,39 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400; }
 
+.heading-2 {
+  font-size: 4rem;
+  font-style: italic; }
+  .heading-2--light {
+    color: #F1EBE0; }
+  .heading-2--dark {
+    color: #172B69; }
+
+.heading-3 {
+  color: #F1EBE0;
+  font-size: 1.6rem;
+  text-transform: uppercase; }
+
 .heading-4 {
   font-size: 2rem; }
   .heading-4--light {
     color: #F1EBE0; }
   .heading-4--dark {
     color: #172B69; }
+
+.btn {
+  background-color: #99460E;
+  color: white;
+  border: none;
+  border-radius: 0;
+  font-family: font-display;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.4rem 3rem;
+  cursor: pointer;
+  transition: all .2s; }
+  .btn:hover {
+    background-color: #E8A93F; }
 
 .sidebar {
   background-color: #E8A93F;
@@ -69,12 +96,13 @@ body {
     font-size: 1.8rem; }
 
 .story__pictures {
-  background-color: #E8A93F;
+  background-color: #99460E;
   grid-column: full-start / col-end 4; }
 
 .story__content {
   background-color: #F1EBE0;
-  grid-column: col-start 5 / full-end; }
+  grid-column: col-start 5 / full-end;
+  padding: 6rem; }
 
 .projects {
   background-color: #172B69;

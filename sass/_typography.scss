@@ -9,10 +9,25 @@
 
 .heading-2 {
     @extend %heading;
+    font-size: 4rem;
+    font-style: italic;
+
+    &--light {
+        color: $color-yellow-light;
+    }
+
+    &--dark {
+        color: $color-blue-light;
+        //font-size: 1.6rem;
+        //text-transform: uppercase;
+    }
 }
 
 .heading-3 {
     @extend %heading;
+    color: $color-yellow-light;
+    font-size: 1.6rem;
+    text-transform: uppercase;
 }
 
 .heading-4 {
@@ -25,5 +40,22 @@
 
     &--dark {
         color: $color-blue-light;
+    }
+}
+
+.btn {
+    background-color: $color--brown-primary;
+    color: white;
+    border: none;
+    border-radius: 0;
+    font-family: font-display;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1.4rem 3rem;
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover {
+        background-color: $color-yellow-primary;
     }
 }
