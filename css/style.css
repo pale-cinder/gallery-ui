@@ -116,7 +116,8 @@ body {
   grid-column: col-start 5 / full-end;
   padding: 6rem 12rem;
   display: grid;
-  align-content: center; }
+  align-content: center;
+  justify-items: start; }
 
 .story__text {
   font-size: 1.5rem;
