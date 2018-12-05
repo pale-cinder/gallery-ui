@@ -114,7 +114,7 @@ body {
 .story__content {
   background-color: #F1EBE0;
   grid-column: col-start 5 / full-end;
-  padding: 6rem 12rem;
+  padding: 6rem 8vw;
   display: grid;
   align-content: center;
   justify-items: start; }
