@@ -25,7 +25,7 @@
 
 .heading-3 {
     @extend %heading;
-    color: $color-yellow-light;
+    color: $color-yellow-primary;
     font-size: 1.6rem;
     text-transform: uppercase;
 }
@@ -59,3 +59,8 @@
         background-color: $color-yellow-primary;
     }
 }
+
+.mb-sm { margin-bottom: 2rem; }
+.mb-md { margin-bottom: 3rem; }
+.mb-lg { margin-bottom: 4rem; }
+.mb-hg { margin-bottom: 5rem; }

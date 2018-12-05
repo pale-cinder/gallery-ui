@@ -33,7 +33,7 @@ body {
     color: #172B69; }
 
 .heading-3 {
-  color: #F1EBE0;
+  color: #E8A93F;
   font-size: 1.6rem;
   text-transform: uppercase; }
 
@@ -57,6 +57,18 @@ body {
   transition: all .2s; }
   .btn:hover {
     background-color: #E8A93F; }
+
+.mb-sm {
+  margin-bottom: 2rem; }
+
+.mb-md {
+  margin-bottom: 3rem; }
+
+.mb-lg {
+  margin-bottom: 4rem; }
+
+.mb-hg {
+  margin-bottom: 5rem; }
 
 .sidebar {
   background-color: #E8A93F;
@@ -102,7 +114,11 @@ body {
 .story__content {
   background-color: #F1EBE0;
   grid-column: col-start 5 / full-end;
-  padding: 6rem; }
+  padding: 6rem 12rem; }
+
+.story__text {
+  font-size: 1.5rem;
+  font-style: italic; }
 
 .projects {
   background-color: #172B69;

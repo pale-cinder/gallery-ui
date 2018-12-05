@@ -8,6 +8,11 @@
         background-color: $color-yellow-light;
         grid-column: col-start 5 / full-end;
 
-        padding: 6rem 
+        padding: 6rem 12rem;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        font-style: italic;
     }
 }
