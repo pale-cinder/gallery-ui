@@ -120,6 +120,8 @@ body {
   width: 100%;
   grid-row: 1 / 7;
   grid-column: 1 / 6;
+  background-image: -moz-linear-gradient(rgba(153, 70, 14, 0.85), rgba(153, 70, 14, 0.85));
+  background-size: cover;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1); }
 
 .story__img--2 {
@@ -143,8 +145,14 @@ body {
   margin-bottom: 4rem; }
 
 .projects {
-  background-color: #172B69;
-  grid-column: center-start / center-end; }
+  grid-column: center-start / center-end;
+  margin: 15rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 7rem; }
+
+.project {
+  background-color: #F1EBE0; }
 
 .gallery {
   background-color: #172B69;
