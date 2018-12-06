@@ -11,18 +11,25 @@
 .project {
     background-color: $color-yellow-light;
 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
     &__img {
         width: 100%;
+        grid-column:  1 / -1;
 
     }
 
     &__check {
         
+        height: 4rem;
+        width: 4rem;
+        
         
     }
 
     &__name {
-        
+        grid-column:  1 / -1; 
         
     }
 
@@ -41,5 +48,9 @@
         p {
 
         }
+    }
+
+    &__brn {
+        grid-column:  1 / -1; 
     }
 }

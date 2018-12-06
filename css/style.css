@@ -152,12 +152,22 @@ body {
   grid-gap: 7rem; }
 
 .project {
-  background-color: #F1EBE0; }
+  background-color: #F1EBE0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
   .project__img {
-    width: 100%; }
+    width: 100%;
+    grid-column: 1 / -1; }
+  .project__check {
+    height: 4rem;
+    width: 4rem; }
+  .project__name {
+    grid-column: 1 / -1; }
   .project__link {
     height: 2rem;
     width: 2rem; }
+  .project__brn {
+    grid-column: 1 / -1; }
 
 .gallery {
   background-color: #172B69;
