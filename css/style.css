@@ -153,6 +153,11 @@ body {
 
 .project {
   background-color: #F1EBE0; }
+  .project__img {
+    width: 100%; }
+  .project__link {
+    height: 2rem;
+    width: 2rem; }
 
 .gallery {
   background-color: #172B69;

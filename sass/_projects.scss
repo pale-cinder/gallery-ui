@@ -10,4 +10,36 @@
 
 .project {
     background-color: $color-yellow-light;
+
+    &__img {
+        width: 100%;
+
+    }
+
+    &__check {
+        
+        
+    }
+
+    &__name {
+        
+        
+    }
+
+    &__link {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    &__lock,
+    &__reliability,
+    &__performance,
+    &__operational {
+
+        
+
+        p {
+
+        }
+    }
 }
