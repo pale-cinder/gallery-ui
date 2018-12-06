@@ -154,11 +154,18 @@ body {
 .project {
   background-color: #F1EBE0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-columns: repeat(3, 1fr); }
   .project__img {
     width: 100%;
     grid-column: 1 / -1; }
   .project__check {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    height: 4rem;
+    width: 4rem; }
+  .project__check2 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
     height: 4rem;
     width: 4rem; }
   .project__name {
